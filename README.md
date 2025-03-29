@@ -20,14 +20,18 @@ Este proyecto es una implementación sencilla de un chatbot web informativo para
 ```bash
 git clone https://github.com/tu_usuario/chatbot-simposio.git
 cd chatbot-simposio
-
+```
 2. Instala las dependencias
+```bash
 npm install
 3. Ejecuta el servidor
 node server.js
-4. Abre el navegador
-Visita http://localhost:3000 para ver el chatbot funcionando.
+```
 
+4. Abre el navegador
+```bash
+Visita http://localhost:3000 para ver el chatbot funcionando.
+```
 📦 Estructura del proyecto
 
 chatbot-simposio/
@@ -51,7 +55,7 @@ El chatbot responde preguntas como:
 🔗 Integración con Dialogflow
 
 El chatbot está integrado con Dialogflow Messenger usando el siguiente fragmento:
-
+```bash
 <df-messenger
   intent="WELCOME"
   chat-title="ChatbotSimposio"
@@ -59,6 +63,7 @@ El chatbot está integrado con Dialogflow Messenger usando el siguiente fragment
   language-code="es"
 ></df-messenger>
 <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+```
 ✨ Créditos
 
 Proyecto desarrollado por Alberto Enrique Morales Velasquez
