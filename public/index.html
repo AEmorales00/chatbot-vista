@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Simposio de Tecnología - Chatbot</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 30px;
+            background-color: #f2f2f2;
+            text-align: center;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        p {
+            font-size: 18px;
+            color: #666;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>👩‍💻 Bienvenido al Simposio de Tecnología</h1>
+    <p>Si tienes dudas sobre horarios, inscripción o expositores, nuestro chatbot está listo para ayudarte.</p>
+
+    <!-- Chat flotante de Dialogflow Messenger -->
+    <df-messenger intent="WELCOME" chat-title="ChatbotSimposio" agent-id="98036ea4-9e44-42f2-b2bb-7e509e2ce33b"
+        language-code="es"></df-messenger>
+
+    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+
+</body>
+
+</html>
