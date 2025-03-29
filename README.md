@@ -33,14 +33,14 @@ node server.js
 Visita http://localhost:3000 para ver el chatbot funcionando.
 ```
 📦 Estructura del proyecto
-
+```bash
 chatbot-simposio/
 ├── public/
 │   └── index.html      # Página principal con el chatbot
 ├── server.js           # Servidor básico con Express
 ├── package.json
 └── README.md           # Este archivo
-
+```
 💬 ¿Qué hace el chatbot?
 
 El chatbot responde preguntas como:
